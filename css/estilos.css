@@ -36,13 +36,15 @@ form{display: flex; background-color: black; color: rgb(145, 255, 0);}
 
 .foto2{ justify-content: left; align-items: left; width: 60%}
 
-.formulario div {text-align: center; justify-content: center; align-items: center;  padding: 20px;  margin-right: 50px;  width: 33%; margin: auto}
+.formulario div {text-align: center; justify-content: center; align-items: center;
+      padding: 20px;  margin-right: 50px;   margin: auto}
 
 input{width: 180px; height: 20px; margin-top: 15px;}
 
 .porque{margin-top: 15px;width: 180px}
 
-.boton{font-size: large; font-family: 'Roboto Mono', monospace; border: solid 1.5px;  border-color: rgb(145, 255, 0); border-radius: 10px;
+.boton{font-size: large; font-family: 'Roboto Mono', monospace; border: solid 1.5px; 
+     border-color: rgb(145, 255, 0); border-radius: 10px;
     color:rgb(145, 255, 0); background-color: black; padding: 6px;justify-content: center;width: 150px; height: 40px;}
 
 input[type=submit]:hover{background-color :rgb(112, 110, 110)} 
@@ -65,10 +67,10 @@ footer{text-align: center; background-color: black; color: rgb(145, 255, 0);}
 
     form{flex-flow: wrap;}
     .foto2{width: 100%; }
-    .formulario{margin: auto;}
-    .formulario div{justify-content: center; text-align: center; margin-left: 100px; text-align: center; }
+    .formulario{ display: flex; flex-direction: column;margin: auto; justify-content: center; text-align: center;}
+    .formulario div{  margin-left: 100px }
+    .porque{display: flex;align-items: center;}
     
- 
 
     footer{padding: auto;}
 
